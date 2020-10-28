@@ -1,0 +1,26 @@
+x link scripts/css
+- build the html of the site and the input
+- present the info from the api on the DOM
+    - book cover, author, title
+    - building helper functions to generate elements and append them
+- access the library api
+    x hardcode category first
+
+    http://thedomain.com/this/is/the/path?foo=bar
+    pr.cl   domain              path        query params
+
+    x postman
+    - find cover, author, title
+    - create the fetch
+        - write a function that takes in a string and runs the api request
+- indetify fields from the api
+- function that returns random book
+    - works.length as the max in a random function
+    - math.floor(Math.random() * works.length)
+    - works [randomindex]
+
+- wire up input
+    - ADD click listener to button to:
+        - grab the input via query selector and get it's text
+        - pass it into the search
+
